@@ -9,15 +9,15 @@ public class Program
 		double math = 78.8;
 		double english = 90;
 		double average = (science + math + english)/ (3);
-		
 		Console.WriteLine("your average is: " + average);
+		
 		//int//
 		int a = 5;
 		int b = 9;
 		int c =7;
 		int total = a + b - c;
-	
-Console.WriteLine("total = " + total);
+		Console.WriteLine("total = " + total);
+		
 		// string//
 		string city = "Strongsville";
 		string state = "Ohio";
@@ -28,7 +28,6 @@ Console.WriteLine("total = " + total);
 		bool summerIsHot = true;
 		bool winterIsWarm = false;
 		bool pool = summerIsHot;
-		
 		Console.WriteLine("pool is for hot weather " + pool);
 		
 					  
