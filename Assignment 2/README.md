@@ -27,3 +27,35 @@ public class Program
 		Console.WriteLine("Your height in cm =" + heightInCm);
 		
 		
+
+using System;
+
+public class Program 
+{ 
+	public static void Main() 
+	{ 
+	// Boolean Expression//
+
+		
+	
+		int age = 18;
+		bool canVote = true;
+		bool isCitizen = true;
+		Console.WriteLine("enter your age");
+		Console.ReadLine();
+		
+		Console.WriteLine("isCitizen");
+		Console.ReadLine();
+	
+		if (age >= 18 && isCitizen);
+		{
+		Console.WriteLine("canVote");
+	
+		}
+		else
+		{
+		Console.WriteLine("Go sit down");
+	}
+	}
+	
+}
