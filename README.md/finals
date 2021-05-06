@@ -1,0 +1,25 @@
+namespace Example2_Constructors
+{
+    class Passenger
+    {
+        static void Main(string[] args)
+        {
+            string name;
+			double weight;
+
+            Passenger x = new Passenger();
+            x.FirstName = "Jay";
+            x.LastName = "Jones";
+            x.weight = 143.55 lbs;
+			x.fullName = FirstName  + LastName;
+
+           string fullName = x.fullName;
+			double x.weight = Convert.ToInt32(Console.ReadLine());
+       	
+
+            
+
+            System.Console.ReadKey();
+        }
+    }
+}
